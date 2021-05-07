@@ -1,0 +1,32 @@
+$base-color-white: #ffffff;
+$base-color-black: #000000;
+$base-color-gray: #f8f8f8;
+$base-color-1: #131144;
+$base-color-2: #ff7700;
+$base-color-3: #ff006a;
+
+/** GLOBAL */
+$bg_gray: $base-color-gray;
+$app-color-primary: #1890ff;
+$app-color-success: #13ce66;
+$app-color-warning: #FFBA00;
+$app-color-danger: #ff4949;
+/** END GLOBAL */
+
+$base-border-color-gray: #c2bdbd;
+$base-text-color: #222222;
+$base-text-color-1: #6a8695;
+
+$base-bg-color: $base-color-1;
+$modal-mask-bg: rgba($base-bg-color, 0.8);
+
+
+/** security */
+$security-layout-bg: $base-color-white;
+$security-block-bg: $base-color-white;
+$security-block-title-color: $base-color-black;
+/** END security */
+
+
+
+

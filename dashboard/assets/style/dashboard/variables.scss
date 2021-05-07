@@ -1,0 +1,28 @@
+@import "../var";
+/** Left menu vars **/
+$sidebar-logo-title-color: rgb(255,255,255);
+
+$sidebar-bg: $base-color-1;
+$sidebar-item-bg: $base-color-1;
+$sidebar-item-active--bg: rgba($base-color-1, 0.85);
+
+$sidebar-border-color: #575787;
+
+$sidebar-color: $base-color-gray;
+$sidebar-icon-color: $base-color-gray;
+$sidebar-active-color: $base-color-gray;
+$sidebar-icon-active-color: $base-color-gray;
+$sidebar-width: 240px;
+$sidebar-hide-width: 65px;
+/** END Left menu vars **/
+
+/** Navbar vars **/
+$dashboard-navbar-height: 55px;
+$dashboard_navbar_bg: #ffffff;
+$dashboard-navbar-account-item-height: $dashboard-navbar-height - 10px;
+$dashboard-navbar-avatar-size: $dashboard-navbar-account-item-height - 10px;
+$dashboard-navbar-text-color: #222222;
+/** END Navbar vars **/
+
+
+

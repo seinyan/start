@@ -1,0 +1,180 @@
+@import "../theme-chalk-master/src/index";
+
+//@import "../theme-chalk-master/src/common/var";
+//@import "../theme-chalk-master/src/base";
+//@import "../theme-chalk-master/src/loading";
+//@import "../theme-chalk-master/src/pagination";
+//@import "../theme-chalk-master/src/select";
+//@import "../theme-chalk-master/src/option";
+//@import "../theme-chalk-master/src/table";
+//@import "../theme-chalk-master/src/table-column";
+//@import "../theme-chalk-master/src/upload";
+//@import "../theme-chalk-master/src/rate";
+
+@import "var";
+
+/**
+* I think element-ui's default theme color is too light for long-term use.
+* So I modified the default color and you can modify it to your liking.
+**/
+//
+//
+///* theme color */
+//$--color-primary: $app-color-primary;
+//$--color-success: $app-color-success;
+//$--color-warning: $app-color-warning;
+//$--color-danger: $app-color-danger;
+//// $--color-info: #1E1E1E;
+//
+//$--button-font-weight: 400;
+//
+//// $--color-text-regular: #1f2d3d;
+//
+//$--border-color-light: #dfe4ed;
+//$--border-color-lighter: #e6ebf5;
+//
+//$--table-border:1px solid#dfe6ec;
+//
+///* icon font path, required */
+//$--font-path: '~element-ui/lib/theme-chalk/fonts';
+//
+//@import "~element-ui/packages/theme-chalk/src/index";
+//
+//// the :export directive is the magic sauce for webpack
+//// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+//:export {
+//  theme: $--color-primary;
+//}
+//.el-breadcrumb__inner,
+//.el-breadcrumb__inner a {
+//  font-weight: 400 !important;
+//}
+//
+//.el-upload {
+//  input[type="file"] {
+//    display: none !important;
+//  }
+//}
+//
+//.el-upload__input {
+//  display: none;
+//}
+//
+//.cell {
+//  .el-tag {
+//    margin-right: 0px;
+//  }
+//}
+//
+//.small-padding {
+//  .cell {
+//    padding-left: 5px;
+//    padding-right: 5px;
+//  }
+//}
+//
+//.fixed-width {
+//  .el-button--mini {
+//    padding: 7px 10px;
+//    width: 60px;
+//  }
+//}
+//
+//.status-col {
+//  .cell {
+//    padding: 0 10px;
+//    text-align: center;
+//
+//    .el-tag {
+//      margin-right: 0px;
+//    }
+//  }
+//}
+//
+//// to fixed https://github.com/ElemeFE/element/issues/2461
+//.el-dialog {
+//  transform: none;
+//  left: 0;
+//  position: relative;
+//  margin: 0 auto;
+//}
+//
+//// refine element ui upload
+//.upload-container {
+//  .el-upload {
+//    width: 100%;
+//
+//    .el-upload-dragger {
+//      width: 100%;
+//      height: 200px;
+//    }
+//  }
+//}
+//
+//// dropdown
+//.el-dropdown-menu {
+//  a {
+//    display: block
+//  }
+//}
+//
+//// fix date-picker ui bug in filter-item
+//.el-range-editor.el-input__inner {
+//  display: inline-flex !important;
+//}
+//
+//.el-input-group__append, .el-input-group__prepend {
+//  background: transparent!important;
+//}
+//
+//.el-tag--light {
+//  //color: #ffffff!important;
+//  //margin-bottom: 3px;
+//  //font-weight: 600!important;
+//}
+
+//@import "../theme-chalk-master/src/loading";
+//@import "../theme-chalk-master/src/button";
+//@import "../theme-chalk-master/src/input";
+//@import "../theme-chalk-master/src/input-number";
+//@import "../theme-chalk-master/src/date-picker";
+//@import "../theme-chalk-master/src/select";
+//@import "../theme-chalk-master/src/option";
+//@import "../theme-chalk-master/src/notification";
+//@import "../theme-chalk-master/src/pagination";
+//@import "../theme-chalk-master/src/upload";
+//@import "../theme-chalk-master/src/autocomplete";
+//@import "../theme-chalk-master/src/message-box";
+//@import "../theme-chalk-master/src/message";
+//
+//
+//@import "../theme-chalk-master/src/popover";
+//@import "../theme-chalk-master/src/dialog";
+//
+//
+//@import "../theme-chalk-master/src/form";
+//@import "../theme-chalk-master/src/form-item";
+//
+//
+//@import "../theme-chalk-master/src/dropdown";
+//@import "../theme-chalk-master/src/dropdown-item";
+//@import "../theme-chalk-master/src/dropdown-menu";
+//
+//@import "../theme-chalk-master/src/table";
+//@import "../theme-chalk-master/src/table-column";
+//
+//@import "../theme-chalk-master/src/switch";
+//
+//
+//@import "../theme-chalk-master/src/radio-group";
+//@import "../theme-chalk-master/src/radio-button";
+//
+//@import "../theme-chalk-master/src/checkbox-group";
+//@import "../theme-chalk-master/src/checkbox-button";
+//
+//
+//@import "../theme-chalk-master/src/backtop";
+//
+//@import "../theme-chalk-master/src/menu";
+//@import "../theme-chalk-master/src/scrollbar";
+//

@@ -1,0 +1,104 @@
+@import "variables";
+
+/** hamburger **/
+.navbar-hamburger {
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+  transition: background .3s;
+  &:hover {
+    background: rgba(0, 0, 0, .075)!important;
+  }
+  .hamburger-icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+  }
+  .hamburger-icon.is-active {
+    transform: rotate(180deg);
+  }
+}
+/** END hamburger **/
+
+/** breadcrumb **/
+.navbar-breadcrumb.el-breadcrumb {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 50px;
+  margin-left: 8px;
+  .navbar-breadcrumb-no-redirect {
+    color: #97a8be;
+    cursor: text;
+  }
+}
+/** END breadcrumb **/
+
+/** navbar **/
+
+.navbar {
+  height: $dashboard-navbar-height;
+  overflow: hidden;
+  position: relative;
+  background: $dashboard_navbar_bg;
+  box-shadow: 0 1px 4px rgba(0,21,41,.08);
+  padding: 0 5px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.navbar-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.navbar-account-block {}
+.navbar-account-item {
+  margin: 0;
+  padding: 0;
+  width: $dashboard-navbar-account-item-height;
+  height: $dashboard-navbar-account-item-height;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.navbar-account-item-icon {
+  i {
+    height: 15px;
+    font-size: 30px;
+  }
+}
+.navbar-avatar {
+  img {
+    width: $dashboard-navbar-account-item-height - 5px;
+    height: $dashboard-navbar-account-item-height - 5px;
+    border-radius: 10px;
+    //width: 100%;
+  }
+}
+.navbar-account-menu {
+  min-width: 150px;
+  padding: 0 8px;
+  a {
+    display: block;
+    width: 100%;
+    color: $dashboard-navbar-text-color;
+    padding: 5px 8px;
+    i {
+      width: 20px;
+    }
+  }
+}
+
+
+
+/** END navbar **/

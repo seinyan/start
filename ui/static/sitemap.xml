@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>http://www.site.ru/</loc>
+    <priority>1.0</priority>
+  </sitemap>
+  <sitemap>
+    <loc>http://www.site.ru/page_1</loc>
+    <lastmod>2018-09-21</lastmod>
+    <priority>0.9</priority>
+  </sitemap>
+</sitemapindex>
