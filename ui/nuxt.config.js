@@ -20,14 +20,11 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1'},
-      // { hid: 'robots', name: 'robots', content: 'noindex, nofollow'},
-
       { hid: 'keywords', name: 'keywords', content: 'App'},
       { hid: 'description', name: 'description', content: 'App'},
 
-
       { property: 'og:locate', content: `RU_ru` },
-      { property: 'og:site_name', content: `poptovik.ru  вся мода на одном сайте.` },
+      { property: 'og:site_name', content: `start.ru  вся мода на одном сайте.` },
       { property: 'og:type', content: 'website' },
 
       { property: 'og:title', content: `App` },
@@ -38,7 +35,6 @@ export default {
       { property: 'og:image:height', content: '50' },
 
       { name: "yandex-verification", content: "" },
-
 
       // https://www.favicon-generator.org/
       { rel: 'apple-touch-icon', sizes: '57x57', href: '/favicon/apple-icon-57x57.png' },
@@ -54,10 +50,10 @@ export default {
       { rel: 'icon', sizes: '32x32', type: 'image/png', href: '/favicon/favicon-32x32.png' },
       { rel: 'icon', sizes: '96x96', type: 'image/png', href: '/favicon/favicon-96x96.png' },
       { rel: 'icon', sizes: '16x16', type: 'image/png', href: '/favicon/favicon-16x16.png' },
+
       { name: 'msapplication-TileColor', content: '#ff006a' },
       { name: 'msapplication-TileImage', content: '/favicon/ms-icon-144x144.png' },
       { name: 'theme-color', content: '#ff006a' },
-
       { name: 'msapplication-navbutton-color', content: '#ff006a' },
       { name: 'apple-mobile-web-app-status-bar-style', content: '#ff006a' },
     ],

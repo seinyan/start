@@ -1,7 +1,10 @@
 <template>
   <div class="w-100">
 
+    <app-slider/>
+
     <h1>index</h1>
+
 
     sada
 
@@ -10,7 +13,9 @@
 </template>
 
 <script>
+import AppSlider from "../components/app-slider";
 export default {
+  components: {AppSlider},
   scrollToTop: true,
   // loading: true,
   data() {

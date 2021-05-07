@@ -1,5 +1,5 @@
 <template>
-  <div style="margin-top: 15px;margin-bottom: 15px;">
+  <div>
     <div
       v-if="false"
       class="ya-share2"

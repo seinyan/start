@@ -19,3 +19,6 @@ Vue.use(VueScrollTo, {
 
 // import VuePictureSwipe from 'vue-picture-swipe';
 // Vue.component('vue-picture-swipe', VuePictureSwipe);
+
+// import { Plugin } from 'vue-responsive-video-background-player'
+// Vue.use(Plugin)
