@@ -1,0 +1,26 @@
+version: "3.3"
+
+services:
+
+  nuxt:
+    image: node:10.15.3
+    working_dir: "/var/www/app"
+    container_name: robot-ui-nuxt
+    environment:
+      - HOST=0.0.0.0
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./:/var/www/app
+    command: bash -c "npm -v && npm i && npm run dev"
+#    command: bash -c "npm -v && npm i && npm run build && npm run start"
+
+#  nginx:
+#    image: nginx:latest
+#    container_name: pro1-nginx
+#    ports:
+#      - "9090:80"
+#    volumes:
+#      - ./docker/nginx:/etc/nginx/conf.d
+#    depends_on:
+#      - nuxt
